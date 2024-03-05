@@ -1,0 +1,15 @@
+.about {
+  grid-column: 3 / 11;
+  grid-row: 2;
+  padding: 30px;
+}
+
+.ticket-background {
+  background-color: #a68c5b;
+}
+
+.ticket-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}

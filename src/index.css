@@ -15,6 +15,7 @@
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3a403e;
 }
 
 .container {
@@ -34,7 +35,7 @@ p {
 }
 
 a {
-  color: #d9644a;
+  color: #f29863;
   font-size: 16px;
 }
 

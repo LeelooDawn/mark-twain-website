@@ -1,7 +1,20 @@
 import React from "react";
+import "./componentCSS/Nav.css";
 
 function Nav() {
-  return <div>This is the Navigation</div>;
+  return (
+    <div className="nav-background">
+      <div className="container">
+        <nav className="nav-container">
+          <ul className="nav-list">
+            <li>Show Time</li>
+            <li>Buy Tickets</li>
+            <li>Contact Info</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  );
 }
 
 export default Nav;

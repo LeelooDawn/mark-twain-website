@@ -1,0 +1,16 @@
+.extra-background {
+  background-color: #a68c5b;
+}
+
+.extra-container {
+  grid-column: 3 / 11;
+  grid-row: 2;
+  padding: 30px;
+}
+
+.extra-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  grid-gap: 20px;
+}

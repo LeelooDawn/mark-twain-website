@@ -3,7 +3,8 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Showinfo from "./components/Showinfo";
 import Ticketinfo from "./components/Ticketinfo";
-import "./App.css";
+import Extrainfo from "./components/Extrainfo";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Header />
       <Showinfo />
       <Ticketinfo />
+      <Extrainfo />
+      <Footer />
     </>
   );
 }

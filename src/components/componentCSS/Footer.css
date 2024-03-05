@@ -1,0 +1,8 @@
+.footer-background {
+  background-color: #b8bf7e;
+}
+
+.footer-container {
+  grid-column: 3 / 11;
+  padding: 45px;
+}
