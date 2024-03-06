@@ -32,11 +32,15 @@ h1 {
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 a {
-  color: #f29863;
+  color: #b8bf7e;
   font-size: 16px;
+}
+a:hover {
+  color: #f29863;
 }
 
 @media screen and (max-width: 375px) {

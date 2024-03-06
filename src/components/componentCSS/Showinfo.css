@@ -2,9 +2,10 @@ main {
   display: grid;
   padding: 25px;
 }
-h3 {
-  text-align: center;
+.summary-left h2 {
+  text-align: left;
   padding-bottom: 20px;
+  font-size: 39px;
 }
 .show-background {
   background-color: #b8bf7e;
@@ -12,19 +13,26 @@ h3 {
 
 .showInfo {
   grid-column: 3 /11;
-  padding-top: 30px;
+  padding-top: 20px;
+}
+.summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px;
 }
 
-.summary div {
-  padding: 10px 30px 10px 30px;
-}
-.calltoaction {
-  padding: 10px 200px;
-}
-.questions {
-  font-size: 18px;
+.summary-left div {
   padding: 10px;
 }
-.questions span {
-  font-weight: bold;
+
+.summary-right div {
+  padding: 20px;
+}
+
+.summary1 {
+  border-bottom: 2px solid #3a403e;
+  border-left: 2px solid #3a403e;
+}
+.summary2 {
+  border-left: 2px solid #3a403e;
 }

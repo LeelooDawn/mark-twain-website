@@ -58,13 +58,19 @@ function Header() {
             <h1>
               M<span>ARK</span> T<span>WAIN</span> M<span>ONDAYS</span>
             </h1>
-            <h2>
-              A comedic trip down the river with America's greatest writer.
-              Readings, prizes, and silly mustaches. All Ages.
-            </h2>
+          </div>
+          <div className="questions">
+            <h4>
+              "Is Twain still funny? Is Twain still relevant? Is Twain still
+              alive?"
+            </h4>
           </div>
           <div className="markTwain">
             <img src={mark} alt="Illustration of Mark Twain" />
+            <div className="dates">
+              <h2>March 18 - April 22, 2024</h2>
+              <h3>7:00pm</h3>
+            </div>
           </div>
         </header>
       </div>

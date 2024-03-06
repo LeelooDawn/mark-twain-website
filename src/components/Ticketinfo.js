@@ -8,7 +8,8 @@ function Ticketinfo() {
     <div className="ticket-background">
       <div className="container">
         <div className="about">
-          <div className="ticket-info">
+          <h2>Where is the show?</h2>
+          <div className="ticket-container">
             <div>
               <img
                 src={huckfinn}
@@ -16,20 +17,22 @@ function Ticketinfo() {
                 width="300px"
               />
             </div>
-            <div>
-              <div>
+            <div className="info-container">
+              <div className="restaurantinfo">
                 <h3>Carmo Restaurant</h3>
                 <p>Cinema Room 527</p>
                 <p>Julia St. New Orleans, LA 70130</p>
               </div>
-              <div>
+              <div className="ticketinformation">
                 <h3>Ticket Information</h3>
                 <ul>
                   <li>$19 - Adults</li>
                   <li>$17 - Seniors</li>
                   <li>$10 - Kids under 13</li>
                 </ul>
-                <p>Purchase Tickets Here!</p>
+              </div>
+              <div>
+                <button>Purchase Tickets Here!</button>
               </div>
             </div>
             <div>

@@ -8,12 +8,13 @@ function Extrainfo() {
       <div className="container">
         <div className="extra-container">
           <div className="extra-grid">
-            <div>
+            <div className="discounts">
+              <h3>Looking for Discounts?</h3>
               <p>
-                All tickets will be discounted $2 by bringing in a new or used
-                kids book to be donated to New Orleans Little Free Library
-                Discount tickets for school groups of 8 or more
+                All tickets will be discounted $2 if you bring in a new or used
+                kids book to be donated to the New Orleans Little Free Library
               </p>
+              <p>Discount tickets for school groups of 8 or more</p>
             </div>
             <div>
               <img
@@ -22,9 +23,10 @@ function Extrainfo() {
                 width="300px"
               />
             </div>
-            <div>
+            <div className="pleasenote">
+              <h3>Please Note:</h3>
               <p>
-                *Please note tickets to MARK TWAIN MONDAYS do not guarantee
+                Tickets to MARK TWAIN MONDAYS <strong>do not guarantee</strong>{" "}
                 dinner reservations at the restaurant CARMO, our generous host.
                 Please make dinner reservations at{" "}
                 <a href="www.cafecarmo.com">www.cafecarmo.com</a> before or
