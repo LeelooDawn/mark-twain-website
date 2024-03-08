@@ -5,16 +5,19 @@ import Showinfo from "./components/Showinfo";
 import Ticketinfo from "./components/Ticketinfo";
 import Extrainfo from "./components/Extrainfo";
 import Footer from "./components/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Nav />
-      <Header />
-      <Showinfo />
-      <Ticketinfo />
-      <Extrainfo />
-      <Footer />
+      <BrowserRouter>
+        <Nav />
+        <Header />
+        <Showinfo />
+        <Ticketinfo />
+        <Extrainfo />
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

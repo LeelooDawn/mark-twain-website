@@ -5,7 +5,7 @@ import "./componentCSS/Ticketinfo.css";
 
 function Ticketinfo() {
   return (
-    <div className="ticket-background">
+    <div id="buytickets" className="ticket-background">
       <div className="container">
         <div className="about">
           <h2>Where is the show?</h2>

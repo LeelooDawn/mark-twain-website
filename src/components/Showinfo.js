@@ -3,7 +3,7 @@ import "./componentCSS/Showinfo.css";
 
 function Showinfo() {
   return (
-    <div className="show-background">
+    <div id="showinfo" className="show-background">
       <div className="container">
         <main className="showInfo">
           <div className="summary">

@@ -17,9 +17,35 @@ nav ul li {
   margin-right: 3em;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .nav-background {
   background-color: white;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #f29863;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    grid-column: 1 / 13;
+  }
+  nav ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  nav {
+    grid-column: 1 / 13;
+  }
+  nav ul {
+    display: none;
+  }
 }
