@@ -10,7 +10,7 @@ function Ticketinfo() {
         <div className="about">
           <h2>Where is the show?</h2>
           <div className="ticket-container">
-            <div>
+            <div className="huckfinn">
               <img
                 src={huckfinn}
                 alt="Huckleberry Finn Illustration"

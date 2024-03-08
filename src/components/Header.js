@@ -69,7 +69,7 @@ function Header() {
             <img
               src={mark}
               alt="Illustration of Mark Twain"
-              srcSet="Mark Twain.jpg , Mark Twain 420w.jpg"
+              srcSet="Mark Twain.jpg , Mark Twain 420w.jpg, Mark Twain 300w.jpeg"
               sizes="(max-width: 480px) 100vw, (max-width:900px) 33vw, 738px"
             />
             <div className="dates">

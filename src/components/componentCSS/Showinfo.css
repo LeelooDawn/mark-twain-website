@@ -36,3 +36,36 @@ main {
 .summary2 {
   border-left: 2px solid #3a403e;
 }
+
+@media screen and (max-width: 768px) {
+  .showInfo {
+    display: inline-grid;
+    grid-column: 1 /13;
+  }
+  .summary {
+    display: flex;
+  }
+  .summary-left h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+  .summary-right {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .showInfo {
+    display: grid;
+    grid-column: 1 /13;
+  }
+  .summary {
+    display: flex;
+  }
+  .summary-left {
+    display: none;
+  }
+  .summary-right {
+    font-size: 14px;
+  }
+}
