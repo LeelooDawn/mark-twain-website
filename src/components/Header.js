@@ -12,7 +12,7 @@ function Header() {
     <div className="header-background">
       <div className="container">
         <header className="header-container">
-          <divc className="bookImages">
+          <divc id="bookImages" className="bookImages">
             <div>
               <img
                 src={huckfinn}
@@ -66,7 +66,12 @@ function Header() {
             </h4>
           </div>
           <div className="markTwain">
-            <img src={mark} alt="Illustration of Mark Twain" />
+            <img
+              src={mark}
+              alt="Illustration of Mark Twain"
+              srcSet="Mark Twain.jpg , Mark Twain 420w.jpg"
+              sizes="(max-width: 480px) 100vw, (max-width:900px) 33vw, 738px"
+            />
             <div className="dates">
               <h2>March 18 - April 22, 2024</h2>
               <h3>7:00pm</h3>

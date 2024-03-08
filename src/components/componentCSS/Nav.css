@@ -34,18 +34,18 @@ nav ul li {
 
 @media screen and (max-width: 768px) {
   nav {
-    grid-column: 1 / 13;
+    display: none;
   }
-  nav ul {
+  .nav-background {
     display: none;
   }
 }
 
 @media only screen and (max-width: 375px) {
   nav {
-    grid-column: 1 / 13;
+    display: none;
   }
-  nav ul {
+  .nav-background {
     display: none;
   }
 }

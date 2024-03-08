@@ -48,3 +48,48 @@ h4 {
 .dates h3 {
   padding-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    display: inline-grid;
+    grid-column: 1/13;
+  }
+
+  .bookImages {
+    display: none;
+  }
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  h1 span {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 18px;
+    text-align: center;
+    color: #3a403e;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  h1 span {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  h4 {
+    display: none;
+  }
+  .header-container {
+    display: inline-grid;
+    grid-column: 1 / 13;
+  }
+  .bookImages {
+    display: none;
+  }
+}
