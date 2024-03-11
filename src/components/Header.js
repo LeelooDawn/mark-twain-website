@@ -66,12 +66,7 @@ function Header() {
             </h4>
           </div>
           <div className="markTwain">
-            <img
-              src={mark}
-              alt="Illustration of Mark Twain"
-              srcSet="MarkTwain.jpeg, MarkTwain420w.jpeg"
-              sizes="(max-width: 480px) 100vw, (max-width:900px) 33vw, 738px"
-            />
+            <img src={mark} alt="Illustration of Mark Twain" />
             <div className="dates">
               <h2>Coming Soon!</h2>
               <h3>Date & Time TBD</h3>

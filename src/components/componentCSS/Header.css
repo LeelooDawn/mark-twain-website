@@ -12,7 +12,7 @@ h4 {
 }
 .header-container {
   display: inline-grid;
-  grid-column: 3 / 11;
+  grid-column: 2 / 11;
   padding-top: 70px;
 }
 
