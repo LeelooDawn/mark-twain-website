@@ -4,7 +4,7 @@ import mississippi from "../Images/LifeonMississippi.jpg";
 import sawyer from "../Images/Tom Sawyer.jpeg";
 import frog from "../Images/Jumping Frog.jpeg";
 import prince from "../Images/The_Prince_and_the_Pauper.jpeg";
-import mark from "../Images/Mark Twain.jpeg";
+import mark from "../Images/MarkTwain.jpeg";
 import "./componentCSS/Header.css";
 
 function Header() {
@@ -69,7 +69,7 @@ function Header() {
             <img
               src={mark}
               alt="Illustration of Mark Twain"
-              srcSet="MarkTwain300w.jpeg, MarkTwain420w.jpeg"
+              srcSet="MarkTwain.jpeg, MarkTwain420w.jpeg"
               sizes="(max-width: 480px) 100vw, (max-width:900px) 33vw, 738px"
             />
             <div className="dates">
