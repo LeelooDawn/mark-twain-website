@@ -51,6 +51,11 @@ h4 {
 .mobile-display {
   display: none;
 }
+
+.mobileHeadline {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .header-container {
     display: inline-grid;
@@ -101,10 +106,11 @@ h4 {
     display: grid;
     justify-content: center;
   }
-  .mobile-display h2 {
-    font-size: 18px;
-  }
   .mobile-display h3 {
     text-align: center;
+  }
+  .mobile-display img {
+    padding: 10px;
+    justify-self: center;
   }
 }

@@ -69,22 +69,26 @@ function Header() {
             <img
               src={mark}
               alt="Illustration of Mark Twain"
-              srcSet="Mark Twain.jpg , Mark Twain 420w.jpg"
+              srcSet="MarkTwain300w.jpeg, MarkTwain420w.jpeg"
               sizes="(max-width: 480px) 100vw, (max-width:900px) 33vw, 738px"
             />
             <div className="dates">
-              <h2>March 18 - April 22, 2024</h2>
-              <h3>7:00pm</h3>
+              <h2>Coming Soon!</h2>
+              <h3>Date & Time TBD</h3>
             </div>
           </div>
           <div className="mobile-display">
-            <h2>March 18 - April 22, 2024 </h2>
-            <h3>7:00pm </h3>
+            <h3>Coming Soon!</h3>
+            <h3>Date & Time TBD </h3>
             <img
               src={huckfinn}
               alt="Huckleberry Finn Book Cover"
               width="250px"
             />
+            <h3>
+              A comedic trip down the river with America's greatest writer.
+              Readings, prizes, and silly mustaches. All Ages.
+            </h3>
           </div>
         </header>
       </div>

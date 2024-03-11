@@ -20,7 +20,7 @@ function Showinfo() {
               <div>
                 <p>
                   "7 Degrees of Mark Twain" and "Quotes by Twain or Beyonce?"
-                  and "Two Truths and Lie"
+                  and "Two Truths and Lie (Probably)"
                 </p>
               </div>
             </div>
@@ -37,7 +37,7 @@ function Showinfo() {
                 <p>
                   Audience members of all ages are welcome to try to stump our
                   slightly scholarly cast and compete for prizes in this high
-                  energy and comedic romp into America's most famous humorist."{" "}
+                  energy and comedic romp into America's most famous humorist.{" "}
                 </p>
               </div>
               <div className="summary2">

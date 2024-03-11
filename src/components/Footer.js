@@ -6,7 +6,16 @@ function Footer() {
     <div id="contact" className="footer-background">
       <div className="container">
         <div className="footer-container">
-          <h2>Contact Adam for more information</h2>
+          <div>
+            <h3>Contact Us for more information:</h3>
+          </div>
+          <div>
+            Email Director Adam Higgins{" "}
+            <a href="mailto:ahiggins56@gmail.com" className="emaillink">
+              here
+            </a>
+          </div>
+          <div>Or call us at: 773-678-2890</div>
         </div>
       </div>
     </div>

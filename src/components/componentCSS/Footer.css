@@ -6,3 +6,27 @@
   grid-column: 3 / 11;
   padding: 45px;
 }
+
+.emaillink {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.emaillink:hover {
+  color: #f29863;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    display: inline-grid;
+    grid-column: 1/13;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .footer-container {
+    display: inline-grid;
+    grid-column: 1/13;
+  }
+}

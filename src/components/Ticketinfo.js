@@ -27,12 +27,12 @@ function Ticketinfo() {
                 <h3>Ticket Information</h3>
                 <ul>
                   <li>$19 - Adults</li>
-                  <li>$17 - Seniors</li>
+                  <li>$17 - Seniors/Students</li>
                   <li>$10 - Kids under 13</li>
                 </ul>
               </div>
               <div>
-                <button>Purchase Tickets Here!</button>
+                <button>Tickets Coming Soon</button>
               </div>
             </div>
             <div>
