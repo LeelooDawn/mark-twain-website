@@ -29,9 +29,15 @@ function Extrainfo() {
                 Tickets to MARK TWAIN MONDAYS <strong>do not guarantee</strong>{" "}
                 dinner reservations at the restaurant CARMO, our generous host.
                 Please make dinner reservations at{" "}
-                <a href="https://cafecarmo.com/">www.cafecarmo.com</a> before or
-                after the performance. There will be a cocktail and show menu
-                available during performances.
+                <a
+                  href="https://cafecarmo.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  cafecarmo.com
+                </a>{" "}
+                before or after the performance. There will be a cocktail and
+                show menu available during performances.
               </p>
             </div>
           </div>
