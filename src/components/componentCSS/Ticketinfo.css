@@ -32,16 +32,17 @@
 .ticketinformation li {
   list-style: none;
 }
-button {
+.btn {
   background-color: #f29863;
   color: black;
   border-radius: 10px;
   padding: 1rem;
   border: none;
   font-weight: bold;
+  text-decoration: none;
 }
 
-button:hover {
+.btn:hover {
   color: white;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);

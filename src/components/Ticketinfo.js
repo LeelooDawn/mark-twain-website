@@ -32,7 +32,14 @@ function Ticketinfo() {
                 </ul>
               </div>
               <div>
-                <button>Tickets Coming Soon</button>
+                <a
+                  href="https://www.eventbrite.com/e/mark-twain-mondays-tickets-866674425537?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn"
+                >
+                  Purchase Tickets Here!
+                </a>
               </div>
             </div>
             <div>
