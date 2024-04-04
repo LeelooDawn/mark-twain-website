@@ -20,8 +20,8 @@ function Ticketinfo() {
             <div className="info-container">
               <div className="restaurantinfo">
                 <h3>Carmo Restaurant</h3>
-                <p>Cinema Room 527</p>
-                <p>Julia St. New Orleans, LA 70130</p>
+                <p>Cinema Room</p>
+                <p>527 Julia St. New Orleans, LA 70130</p>
               </div>
               <div className="ticketinformation">
                 <h3>Ticket Information</h3>
