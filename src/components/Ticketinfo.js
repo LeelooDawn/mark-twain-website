@@ -8,7 +8,7 @@ function Ticketinfo() {
     <div id="buytickets" className="ticket-background">
       <div className="container">
         <div className="about">
-          <h2>Where is the show?</h2>
+          <h2>Ticket Information</h2>
           <div className="ticket-container">
             <div className="huckfinn">
               <img
@@ -18,28 +18,23 @@ function Ticketinfo() {
               />
             </div>
             <div className="info-container">
-              <div className="restaurantinfo">
-                <h3>Carmo Restaurant</h3>
-                <p>Cinema Room</p>
-                <p>527 Julia St. New Orleans, LA 70130</p>
-              </div>
-              <div className="ticketinformation">
-                <h3>Ticket Information</h3>
-                <ul>
-                  <li>$19 - Adults</li>
-                  <li>$17 - Seniors/Students</li>
-                  <li>$10 - Kids under 13</li>
-                </ul>
+              <div>
+                <script
+                  id="fw_script"
+                  src="https://fourthwalltickets.com/embed.js?v=6"
+                  data-theatre="marktwainmondays"
+                  data-type="shows"
+                  data-view="calendar"
+                ></script>
               </div>
               <div>
-                <a
-                  href="https://www.eventbrite.com/e/mark-twain-mondays-tickets-866674425537?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn"
-                >
-                  Purchase Tickets Here!
-                </a>
+                <script
+                  id="fw_script"
+                  src="https://fourthwalltickets.com/embed.js?v=5"
+                  data-theatre="marktwainmondays"
+                  data-type="shows"
+                  data-view="cards"
+                ></script>
               </div>
             </div>
             <div>

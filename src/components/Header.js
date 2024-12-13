@@ -68,13 +68,13 @@ function Header() {
           <div className="markTwain">
             <img src={mark} alt="Illustration of Mark Twain" />
             <div className="dates">
-              <h2>April 22nd - May 27th</h2>
-              <h3>7:00 pm</h3>
+              <h2>Coming</h2>
+              <h3>Soon</h3>
             </div>
           </div>
           <div className="mobile-display">
-            <h3>April 22nd - May 27th</h3>
-            <h3>7:00 pm</h3>
+            <h3>Coming</h3>
+            <h3>Soon</h3>
             <img
               src={huckfinn}
               alt="Huckleberry Finn Book Cover"
