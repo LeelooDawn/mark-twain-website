@@ -9,44 +9,31 @@ function Showinfo() {
           <div className="summary">
             <div className="summary-left">
               <div>
-                <h2>
-                  A comedic trip down the river with America's greatest writer.
-                  Readings, prizes, and silly mustaches. All Ages.
-                </h2>
+                <h2>TWO BY TWO: Improv Comedy Duos</h2>
               </div>
               <div>
-                <p> Interactive games such as:</p>
-              </div>
-              <div>
-                <p>
-                  "7 Degrees of Mark Twain" and "Quotes by Twain or Beyonce?"
-                  and "Two Truths and Lie (Probably)"
-                </p>
+                <h3> Starring:</h3>
               </div>
             </div>
             <div className="summary-right">
               <div className="summary1">
                 <p>
-                  Join Mark Twain and his historic friends for a non-traditional
-                  reading of the literary giant's greatest works. With
-                  selections from his works LIFE ON THE MISSISSIPPI, ADVENTURES
-                  OF HUCKLEBERRY FINN and many more!
+                  Join Mark Twain and his friends for Two By Two: Improv Comedy
+                  Duos. With music stylings from: Ted Matthews.{" "}
+                  <p>Friday, December 27th at 7pm and 9pm</p>{" "}
+                  <p>Saturday December 28th at 7pm and 9pm</p>
                 </p>
               </div>
               <div className="summary1">
                 <p>
-                  Audience members of all ages are welcome to try to stump our
-                  slightly scholarly cast and compete for prizes in this high
-                  energy and comedic romp into America's most famous humorist.{" "}
+                  Friday Improv Duos Include: BULK F I S H, Uncle Trouble, Help
+                  Yourself, and Rustic Justice.{" "}
                 </p>
               </div>
               <div className="summary2">
                 <p>
-                  With actors from the international touring comedy act MISSION
-                  IMPROVable (ENTERTAINER OF THE YEAR and COMEDY ACT OF THE YEAR
-                  'campus activities magazine), Award winning Reader from New
-                  Orleans WRBH 88.3 FM Radio for the Blind, and one Brazilian
-                  banjo player (who has never read Mark Twain until this job)
+                  Saturday Improv Duos Include: Moist Splendour, Rustic Justice,
+                  B&B, and Uncle Trouble.
                 </p>
               </div>
             </div>

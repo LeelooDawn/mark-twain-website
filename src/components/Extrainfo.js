@@ -9,12 +9,12 @@ function Extrainfo() {
         <div className="extra-container">
           <div className="extra-grid">
             <div className="discounts">
-              <h3>Looking for Discounts?</h3>
+              <h3>This Show is Fundraising For:</h3>
               <p>
-                All tickets will be discounted $2 if you bring in a new or used
-                kids book to be donated to the New Orleans Little Free Library
+                ACLU, Kickstand Comedy, Center For Reproductive Rights, Union of
+                Concerned Scientist, Brown Girl Rise, and O.W.L: Our Whole
+                Lives.
               </p>
-              <p>Discount tickets for school groups of 8 or more</p>
             </div>
             <div>
               <img
@@ -24,20 +24,9 @@ function Extrainfo() {
               />
             </div>
             <div className="pleasenote">
-              <h3>Please Note:</h3>
+              <h3>ART MARKET at Intermissions</h3>
               <p>
-                Tickets to MARK TWAIN MONDAYS <strong>do not guarantee</strong>{" "}
-                dinner reservations at the restaurant CARMO, our generous host.
-                Please make dinner reservations at{" "}
-                <a
-                  href="https://cafecarmo.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  cafecarmo.com
-                </a>{" "}
-                before or after the performance. There will be a cocktail and
-                show menu available during performances.
+                Featuring: NW DIVA, Random Acts of Color, Aspen Pirate Art,{" "}
               </p>
             </div>
           </div>

@@ -7,6 +7,11 @@ main {
   padding-bottom: 20px;
   font-size: 39px;
 }
+
+.summary-left h3 {
+  text-align: right;
+  font-size: 35px;
+}
 .show-background {
   background-color: #b8bf7e;
 }
@@ -48,6 +53,10 @@ main {
   .summary-left h2 {
     font-size: 30px;
     text-align: left;
+  }
+  .summary-left h3 {
+    font-size: 20px;
+    text-align: right;
   }
   .summary-right {
     font-size: 18px;

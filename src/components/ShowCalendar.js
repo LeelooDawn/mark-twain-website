@@ -2,32 +2,25 @@ import React, { useEffect } from "react";
 
 const ShowCalendar = () => {
   useEffect(() => {
-    // Get the container for embedding content
-    const embedDiv = document.getElementById("embed-container");
-
-    // Clear any previously rendered content in the container
-    embedDiv.innerHTML = "";
-
-    // Create and append the new script
     const script = document.createElement("script");
-    script.id = "fw_script"; // Unique ID for the script
-    script.src = "https://fourthwalltickets.com/embed.js?v=5";
+    script.id = "fw_script";
+    script.src = "https://fourthwalltickets.com/embed.js?v=6";
     script.setAttribute("data-theatre", "marktwainmondays");
     script.setAttribute("data-type", "shows");
-    script.setAttribute("data-view", "cards");
+    script.setAttribute("data-view", "calendar");
     script.async = true;
 
-    embedDiv.appendChild(script); // Add the script to the container
+    // Append the script to the div where you want to load the calendar
+    const embedDiv = document.getElementById("calendar-container");
+    embedDiv.appendChild(script);
 
-    // Cleanup: Remove the script and clear content when the component unmounts
+    // Clean up script on component unmount
     return () => {
-      if (embedDiv) {
-        embedDiv.innerHTML = ""; // Clear the container completely
-      }
+      embedDiv.removeChild(script);
     };
-  }, []); // Empty dependency array ensures this runs only once on mount
+  }, []);
 
-  return <div id="embed-container"></div>; // The container for rendering cards
+  return <div id="calendar-container"></div>;
 };
 
 export default ShowCalendar;

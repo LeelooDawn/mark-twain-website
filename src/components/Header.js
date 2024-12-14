@@ -59,31 +59,20 @@ function Header() {
               M<span>ARK</span> T<span>WAIN</span> M<span>ONDAYS</span>
             </h1>
           </div>
-          <div className="questions">
-            <h4>
-              "Is Twain still funny? Is Twain still relevant? Is Twain still
-              alive?"
-            </h4>
+          <div className="dates">
+            <h2>Presents:</h2>
           </div>
           <div className="markTwain">
             <img src={mark} alt="Illustration of Mark Twain" />
-            <div className="dates">
-              <h2>Coming</h2>
-              <h3>Soon</h3>
-            </div>
           </div>
           <div className="mobile-display">
-            <h3>Coming</h3>
-            <h3>Soon</h3>
+            <h3>Presents:</h3>
             <img
               src={huckfinn}
               alt="Huckleberry Finn Book Cover"
               width="250px"
             />
-            <h3>
-              A comedic trip down the river with America's greatest writer.
-              Readings, prizes, and silly mustaches. All Ages.
-            </h3>
+            <h3>TWO BY TWO: Improv Comedy Duos</h3>
           </div>
         </header>
       </div>
