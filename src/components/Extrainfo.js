@@ -25,9 +25,7 @@ function Extrainfo() {
             </div>
             <div className="pleasenote">
               <h3>ART MARKET at Intermissions</h3>
-              <p>
-                Featuring: NW DIVA, Random Acts of Color, Aspen Pirate Art,{" "}
-              </p>
+              <p>Featuring: NW DIVA, Random Acts of Color, utopiAntics </p>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import mississippi from "../Images/LifeonMississippi.jpg";
 import sawyer from "../Images/Tom Sawyer.jpeg";
 import frog from "../Images/Jumping Frog.jpeg";
 import prince from "../Images/The_Prince_and_the_Pauper.jpeg";
-import mark from "../Images/MarkTwain.jpeg";
+import twobytwo from "../Images/two by two small.png";
 import "./componentCSS/Header.css";
 
 function Header() {
@@ -62,19 +62,16 @@ function Header() {
           <div className="dates">
             <h2>Presents:</h2>
           </div>
-          <div className="markTwain">
-            <img src={mark} alt="Illustration of Mark Twain" />
-          </div>
-          <div className="mobile-display">
-            <h3>Presents:</h3>
-            <img
-              src={huckfinn}
-              alt="Huckleberry Finn Book Cover"
-              width="250px"
-            />
-            <h3>TWO BY TWO: Improv Comedy Duos</h3>
-          </div>
         </header>
+      </div>
+      <div className="twobytwo-container">
+        <div className="markTwain">
+          <img
+            src={twobytwo}
+            alt="Flyer for Two By Two Improv Duos"
+            style={{ maxWidth: "100%", height: "auto" }}
+          />
+        </div>
       </div>
     </div>
   );
